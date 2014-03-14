@@ -1,0 +1,47 @@
+{% extends "polls/base.html" %}
+{% block content %}
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+{% if latest_poll_list %}
+<ul>
+	{% for poll in latest_poll_list %}
+	<li>
+		<a href="{% url 'polls:detail' poll.id %}">{{poll.question}}</a>
+	</li>
+	{% endfor %}
+</ul>
+{% else %}
+<p>
+	No polls are available.
+</p>
+{% endif %}
+
+<div id="jsonResponse"></div>
+
+<script type="text/javascript">
+	function make_base_auth(user, password) {
+	  var tok = user + ':' + password;
+	  var hash = btoa(tok);
+	  return "Basic " + hash;
+	}
+
+	$.ajax({
+		type : "GET",
+		url : "http://localhost:8000/users/",
+		dataType : 'json',
+		async : false,
+		username : 'h13640',
+		password : 'cayenta',
+		data : '',
+		crossDomain: true,
+		beforeSend: function (xhr){ 
+        	xhr.setRequestHeader('Authorization', make_base_auth('h13640', 'cayenta')); 
+    	},
+		success : function(data) {
+			$('#jsonResponse').html(JSON.stringify(data));
+		}
+	}); 
+</script>
+
+{% endblock %}
