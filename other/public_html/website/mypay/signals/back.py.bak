@@ -1,0 +1,37 @@
+from paypal.standard.ipn.signals import subscription_signup,payment_was_successful,subscription_cancel,payment_was_flagged
+from paypal.standard.ipn.models import PayPalIPN
+from django.dispatch import receiver
+import logging
+
+log = logging.getLogger("dev.ttagit.logger")
+
+@receiver(payment_was_successful, sender=PayPalIPN)
+def show_me_the_money(sender, **kwargs):
+  log.debug("SIGNAL!!!!!---Successful Payment")
+
+@receiver(payment_was_flagged, sender=PayPalIPN)
+def flagged_signal(sender, **kwargs):
+	log.debug("SIGNAL!!!!-----FLAGGED SIGNAL")
+
+@receiver(subscription_cancel, sender=PayPalIPN)
+def lets_see_that(sender, **kwargs):
+	log.debug("SIGNAL!!!!----Cancel Subscription")
+	
+@receiver(subscription_signup, sender=PayPalIPN)
+def lets_see_this(sender, **kwargs):
+	log.debug("SIGNAL!!!!----Signup Subscr")
+
+#def recur_pay(sender, **kwargs):
+#  log.info("SIGNAL!!!!-----recurring payment")
+
+#def recur_can(sender, **kwargs):
+#  log.info("SIGNAL!!!!-----recurring cancel")
+
+#payment_was_successful.connect(show_me_the_money)
+#subscription_cancel.connect(show_me_the_money, 
+#dispatch_uid="paypal.standard.ipn.signals.subscription_cancel")
+#subscription_signup.connect(show_me_the_money)
+#payment_was_flagged.connect(flagged_signal)
+
+#recurring_payment.connect(recur_pay)
+#recurring_cancel.connect(recur_can)

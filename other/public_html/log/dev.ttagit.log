@@ -1,0 +1,228 @@
+[INFO] 2012-08-06 12:31:53,072 [views] 21222 [140620125779712] haha, this is logged in mypay view
+[INFO] 2012-08-06 13:22:39,034 [views] 15067 [140230795663104] haha, this is logged in mypay view
+[INFO] 2012-08-06 13:24:14,050 [models] 15062 [140230795663104] This is logged in ipn model _postback
+[INFO] 2012-08-06 13:24:15,289 [models] 15062 [140230795663104] ipn -> model -> send_signals
+[INFO] 2012-08-06 13:24:15,293 [models] 15062 [140230795663104] ipn->model->send_signal is_transaction
+[INFO] 2012-08-06 13:24:15,296 [models] 15062 [140230795663104] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-06 13:24:15,309 [models] 15062 [140230795663104] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-06 13:24:15,792 [models] 15066 [140230795663104] This is logged in ipn model _postback
+[INFO] 2012-08-06 13:24:16,795 [models] 15066 [140230795663104] ipn -> model -> send_signals
+[INFO] 2012-08-06 13:24:16,797 [models] 15066 [140230795663104] ipn->model->send_signal is_subscription
+[INFO] 2012-08-06 13:24:16,799 [models] 15066 [140230795663104] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-06 13:33:16,013 [views] 16484 [140021013776128] haha, this is logged in mypay view
+[INFO] 2012-08-06 13:36:47,672 [models] 16484 [140021013776128] This is logged in ipn model _postback
+[INFO] 2012-08-06 13:36:48,795 [models] 16484 [140021013776128] ipn -> model -> send_signals
+[INFO] 2012-08-06 13:36:48,796 [models] 16484 [140021013776128] ipn->model->send_signal is_transaction
+[INFO] 2012-08-06 13:36:48,797 [models] 16484 [140021013776128] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-06 13:36:48,798 [models] 16484 [140021013776128] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-06 13:36:48,798 [models] 16484 [140021013776128] item number: 1234567
+[INFO] 2012-08-06 13:36:48,802 [models] 16484 [140021013776128] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-06 13:36:54,644 [models] 16481 [140021013776128] This is logged in ipn model _postback
+[INFO] 2012-08-06 13:36:55,751 [models] 16481 [140021013776128] ipn -> model -> send_signals
+[INFO] 2012-08-06 13:36:55,753 [models] 16481 [140021013776128] ipn->model->send_signal is_subscription
+[INFO] 2012-08-06 13:36:55,753 [models] 16481 [140021013776128] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-06 15:41:58,663 [views] 21659 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-06 16:57:42,533 [views] 20475 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-06 18:45:55,488 [views] 20475 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-06 20:34:25,418 [views] 21659 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-06 22:58:17,990 [views] 21659 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-07 07:49:37,522 [models] 20473 [140003535910656] This is logged in ipn model _postback
+[INFO] 2012-08-07 07:49:38,799 [models] 20473 [140003535910656] ipn -> model -> send_signals
+[INFO] 2012-08-07 07:49:38,799 [models] 20473 [140003535910656] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 07:49:38,801 [models] 20473 [140003535910656] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 07:49:38,801 [models] 20473 [140003535910656] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-07 07:49:38,804 [models] 20473 [140003535910656] item number: 1234567
+[INFO] 2012-08-07 07:49:38,805 [models] 20473 [140003535910656] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 07:50:21,088 [models] 21662 [140003535910656] This is logged in ipn model _postback
+[INFO] 2012-08-07 07:50:22,231 [models] 21662 [140003535910656] ipn -> model -> send_signals
+[INFO] 2012-08-07 07:50:22,233 [models] 21662 [140003535910656] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 07:50:22,233 [models] 21662 [140003535910656] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 07:50:22,234 [models] 21662 [140003535910656] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-07 07:50:22,237 [models] 21662 [140003535910656] item number: 1234567
+[INFO] 2012-08-07 07:50:22,238 [models] 21662 [140003535910656] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 07:51:38,305 [models] 21662 [140003535910656] This is logged in ipn model _postback
+[INFO] 2012-08-07 07:51:39,341 [models] 21662 [140003535910656] ipn -> model -> send_signals
+[INFO] 2012-08-07 07:51:39,343 [models] 21662 [140003535910656] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 07:51:39,343 [models] 21662 [140003535910656] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 07:51:39,346 [models] 21662 [140003535910656] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-07 07:51:39,347 [models] 21662 [140003535910656] item number: 1234567
+[INFO] 2012-08-07 07:51:39,347 [models] 21662 [140003535910656] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 07:51:45,537 [models] 21659 [140003535910656] This is logged in ipn model _postback
+[INFO] 2012-08-07 07:51:46,631 [models] 21659 [140003535910656] ipn -> model -> send_signals
+[INFO] 2012-08-07 07:51:46,632 [models] 21659 [140003535910656] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 07:51:46,632 [models] 21659 [140003535910656] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 07:51:46,636 [models] 21659 [140003535910656] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-07 07:51:46,636 [models] 21659 [140003535910656] item number: 1234567
+[INFO] 2012-08-07 07:51:46,637 [models] 21659 [140003535910656] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 07:56:27,394 [models] 20473 [140003535910656] This is logged in ipn model _postback
+[INFO] 2012-08-07 07:56:28,439 [models] 20473 [140003535910656] ipn -> model -> send_signals
+[INFO] 2012-08-07 07:56:28,440 [models] 20473 [140003535910656] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 07:56:28,440 [models] 20473 [140003535910656] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 07:56:28,441 [models] 20473 [140003535910656] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-07 07:56:28,445 [models] 20473 [140003535910656] item number: 1234567
+[INFO] 2012-08-07 07:56:28,445 [models] 20473 [140003535910656] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 07:58:47,458 [models] 21662 [140003535910656] This is logged in ipn model _postback
+[INFO] 2012-08-07 07:58:48,457 [models] 21662 [140003535910656] ipn -> model -> send_signals
+[INFO] 2012-08-07 07:58:48,459 [models] 21662 [140003535910656] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 07:58:48,459 [models] 21662 [140003535910656] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 07:58:48,463 [models] 21662 [140003535910656] item name: Ttagit Pro Account Subscription
+[INFO] 2012-08-07 07:58:48,464 [models] 21662 [140003535910656] item number: 1234567
+[INFO] 2012-08-07 07:58:48,464 [models] 21662 [140003535910656] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 11:22:20,105 [views] 21659 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-07 12:42:08,893 [views] 20475 [140003535910656] haha, this is logged in mypay view
+[INFO] 2012-08-07 13:13:03,975 [views] 2600 [140067403503360] haha, this is logged in mypay view
+[INFO] 2012-08-07 13:14:18,534 [models] 2605 [140067403503360] This is logged in ipn model _postback
+[INFO] 2012-08-07 13:14:19,638 [models] 2605 [140067403503360] ipn -> model -> send_signals
+[INFO] 2012-08-07 13:14:19,640 [models] 2605 [140067403503360] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 13:14:19,641 [models] 2605 [140067403503360] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 13:14:19,642 [models] 2605 [140067403503360] item name: pro-market
+[INFO] 2012-08-07 13:14:19,642 [models] 2605 [140067403503360] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 13:14:19,645 [models] 2605 [140067403503360] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 13:14:30,915 [models] 2597 [140067403503360] This is logged in ipn model _postback
+[INFO] 2012-08-07 13:14:31,951 [models] 2597 [140067403503360] ipn -> model -> send_signals
+[INFO] 2012-08-07 13:14:31,953 [models] 2597 [140067403503360] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 13:14:31,954 [models] 2597 [140067403503360] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 15:18:59,584 [views] 3430 [140305114474240] haha, this is logged in mypay view
+[INFO] 2012-08-07 15:28:54,101 [views] 3431 [140305114474240] haha, this is logged in mypay view
+[INFO] 2012-08-07 15:29:49,320 [models] 3140 [140305114474240] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:29:50,280 [models] 3140 [140305114474240] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:29:50,282 [models] 3140 [140305114474240] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:29:50,283 [models] 3140 [140305114474240] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 15:30:15,898 [models] 3137 [140305114474240] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:30:17,104 [models] 3137 [140305114474240] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:30:17,106 [models] 3137 [140305114474240] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 15:30:17,108 [models] 3137 [140305114474240] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 15:30:17,109 [models] 3137 [140305114474240] item name: ttagit_pro_market
+[INFO] 2012-08-07 15:30:17,111 [models] 3137 [140305114474240] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 15:30:17,157 [models] 3137 [140305114474240] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 15:37:15,889 [views] 3138 [140305114474240] haha, this is logged in mypay view
+[INFO] 2012-08-07 15:38:05,407 [models] 3431 [140305114474240] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:38:06,579 [models] 3431 [140305114474240] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:38:06,580 [models] 3431 [140305114474240] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 15:38:06,580 [models] 3431 [140305114474240] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 15:38:06,581 [models] 3431 [140305114474240] item name: ttagit_pro_market
+[INFO] 2012-08-07 15:38:06,583 [models] 3431 [140305114474240] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 15:38:06,612 [models] 3431 [140305114474240] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 15:38:13,744 [models] 3138 [140305114474240] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:38:14,787 [models] 3138 [140305114474240] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:38:14,788 [models] 3138 [140305114474240] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:38:14,788 [models] 3138 [140305114474240] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 15:45:15,917 [models] 3137 [140305114474240] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:45:17,122 [models] 3137 [140305114474240] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:45:17,123 [models] 3137 [140305114474240] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:45:17,123 [models] 3137 [140305114474240] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:45:17,170 [models] 3137 [140305114474240] subscription_cancel
+[INFO] 2012-08-07 15:45:17,173 [models] 3137 [140305114474240] ipn->model->send_signal is_sub->sub_cancel finished
+[INFO] 2012-08-07 15:52:06,910 [models] 5350 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:52:08,053 [models] 5350 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:52:08,055 [models] 5350 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:52:08,055 [models] 5350 [140261537195776] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:52:21,249 [models] 5351 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:52:22,324 [models] 5351 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:52:22,325 [models] 5351 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:52:22,325 [models] 5351 [140261537195776] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:52:44,159 [models] 5350 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:52:45,190 [models] 5350 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:52:45,193 [models] 5350 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:52:45,194 [models] 5350 [140261537195776] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:53:28,290 [models] 5350 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:53:29,332 [models] 5350 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:53:29,333 [models] 5350 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:53:29,333 [models] 5350 [140261537195776] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:54:50,889 [models] 5348 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:54:51,982 [models] 5348 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:54:51,985 [models] 5348 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:54:51,987 [models] 5348 [140261537195776] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:57:34,822 [models] 5371 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 15:57:35,835 [models] 5371 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 15:57:35,836 [models] 5371 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 15:57:35,837 [models] 5371 [140261537195776] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 15:57:35,873 [models] 5371 [140261537195776] ipn->model->send_signal is_sub->sub_cancel finished
+[INFO] 2012-08-07 16:00:35,557 [views] 5351 [140261537195776] haha, this is logged in mypay view
+[INFO] 2012-08-07 16:01:55,542 [models] 5350 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:01:56,769 [models] 5350 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:01:56,774 [models] 5350 [140261537195776] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 16:01:56,779 [models] 5350 [140261537195776] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 16:01:56,788 [models] 5350 [140261537195776] item name: ttagit_pro_market
+[INFO] 2012-08-07 16:01:56,790 [models] 5350 [140261537195776] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 16:01:56,828 [models] 5350 [140261537195776] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 16:02:13,852 [models] 5351 [140261537195776] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:02:14,911 [models] 5351 [140261537195776] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:02:14,915 [models] 5351 [140261537195776] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:02:14,915 [models] 5351 [140261537195776] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 16:07:43,371 [views] 6348 [140269263894272] mypal module -> view.py -> do_subscribe()
+[INFO] 2012-08-07 16:10:27,535 [models] 6350 [140269263894272] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:10:28,787 [models] 6350 [140269263894272] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:10:28,792 [models] 6350 [140269263894272] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 16:10:28,794 [models] 6350 [140269263894272] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 16:10:28,800 [models] 6350 [140269263894272] item name: ttagit_pro_market
+[INFO] 2012-08-07 16:10:28,801 [models] 6350 [140269263894272] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 16:10:28,804 [ttagit_acct_type] 6350 [140269263894272] update to ttagit_pro_market
+[INFO] 2012-08-07 16:10:28,855 [models] 6350 [140269263894272] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 16:10:29,001 [models] 6351 [140269263894272] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:10:30,020 [models] 6351 [140269263894272] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:10:30,021 [models] 6351 [140269263894272] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:10:30,023 [models] 6351 [140269263894272] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 16:15:27,110 [models] 6350 [140269263894272] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:15:28,191 [models] 6350 [140269263894272] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:15:28,194 [models] 6350 [140269263894272] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:15:28,195 [models] 6350 [140269263894272] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 16:15:28,196 [ttagit_acct_type] 6350 [140269263894272] cancelling ttagit_pro_market
+[INFO] 2012-08-07 16:15:28,223 [ttagit_acct_type] 6350 [140269263894272] Successfully cancel Pro Market Account and add 30 days of graceful period
+[INFO] 2012-08-07 16:15:28,227 [models] 6350 [140269263894272] subscription_cancel
+[INFO] 2012-08-07 16:15:28,229 [models] 6350 [140269263894272] ipn->model->send_signal is_sub->sub_cancel finished
+[INFO] 2012-08-07 16:20:17,108 [models] 6781 [140081447814912] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:20:18,194 [models] 6781 [140081447814912] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:20:18,196 [models] 6781 [140081447814912] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:20:18,196 [models] 6781 [140081447814912] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 16:20:18,198 [ttagit_acct_type] 6781 [140081447814912] cancelling ttagit_pro_market
+[INFO] 2012-08-07 16:20:18,227 [ttagit_acct_type] 6781 [140081447814912] {"result":"OK","time":1344374418209,"msg":"Successfully cancel Pro Market Account and add 30 days of graceful period"}
+[INFO] 2012-08-07 16:20:18,228 [ttagit_acct_type] 6781 [140081447814912] Successfully cancel Pro Market Account and add 30 days of graceful period
+[INFO] 2012-08-07 16:20:18,233 [models] 6781 [140081447814912] ipn->model->send_signal is_sub->sub_cancel finished
+[INFO] 2012-08-07 16:27:50,003 [views] 6973 [139682359510784] mypal module -> view.py -> do_subscribe()
+[INFO] 2012-08-07 16:28:35,901 [models] 6972 [139682359510784] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:28:37,147 [models] 6972 [139682359510784] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:28:37,148 [models] 6972 [139682359510784] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:28:37,149 [models] 6972 [139682359510784] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 16:28:37,150 [ttagit_acct_type] 6972 [139682359510784] ipn->ttagit_acct_type->cancel_account
+[INFO] 2012-08-07 16:28:37,154 [ttagit_acct_type] 6972 [139682359510784] acct_type is not recognized
+[INFO] 2012-08-07 16:28:37,156 [models] 6972 [139682359510784] ipn->model->send_signal is_sub->sub_cancel finished
+[INFO] 2012-08-07 16:29:52,252 [views] 6970 [139682359510784] mypal module -> view.py -> do_subscribe()
+[INFO] 2012-08-07 16:30:54,455 [models] 6972 [139682359510784] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:30:55,528 [models] 6972 [139682359510784] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:30:55,531 [models] 6972 [139682359510784] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 16:30:55,532 [models] 6972 [139682359510784] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 16:30:55,535 [models] 6972 [139682359510784] item name: ttagit_pro_market
+[INFO] 2012-08-07 16:30:55,538 [models] 6972 [139682359510784] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 16:30:55,539 [ttagit_acct_type] 6972 [139682359510784] ipn->ttagit_acct_type->update_account
+[INFO] 2012-08-07 16:30:55,543 [ttagit_acct_type] 6972 [139682359510784] ipn->ttagit_acct_type->update_to_pro_market
+[INFO] 2012-08-07 16:30:55,578 [ttagit_acct_type] 6972 [139682359510784] {"result":"OK","time":1344375055561,"msg":"Successfully update to Pro Market Account"}
+[INFO] 2012-08-07 16:30:55,582 [models] 6972 [139682359510784] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 16:31:07,669 [models] 6974 [139682359510784] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:31:08,681 [models] 6974 [139682359510784] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:31:08,685 [models] 6974 [139682359510784] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:31:08,687 [models] 6974 [139682359510784] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 16:34:27,483 [views] 7041 [139682359510784] mypal module -> view.py -> do_subscribe()
+[INFO] 2012-08-07 16:35:27,919 [models] 7041 [139682359510784] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:35:29,039 [models] 7041 [139682359510784] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:35:29,041 [models] 7041 [139682359510784] ipn->model->send_signal is_transaction
+[INFO] 2012-08-07 16:35:29,042 [models] 7041 [139682359510784] ipn->model sending payment_was_successful signal
+[INFO] 2012-08-07 16:35:29,043 [models] 7041 [139682359510784] item name: ttagit_pro_market
+[INFO] 2012-08-07 16:35:29,046 [models] 7041 [139682359510784] item number: 4ffb5e1a0cf2c9e46dda6810
+[INFO] 2012-08-07 16:35:29,047 [ttagit_acct_type] 7041 [139682359510784] ipn->ttagit_acct_type->update_account
+[INFO] 2012-08-07 16:35:29,049 [ttagit_acct_type] 7041 [139682359510784] ipn->ttagit_acct_type->update_to_pro_market
+[INFO] 2012-08-07 16:35:29,076 [ttagit_acct_type] 7041 [139682359510784] {"result":"OK","time":1344375329061,"msg":"Successfully update to Pro Market Account"}
+[INFO] 2012-08-07 16:35:29,080 [models] 7041 [139682359510784] ipn->model sending payment_was_successful signal finish
+[INFO] 2012-08-07 16:35:35,025 [models] 6971 [139682359510784] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:35:35,964 [models] 6971 [139682359510784] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:35:35,965 [models] 6971 [139682359510784] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:35:35,965 [models] 6971 [139682359510784] ipn->model->send_signal is_sub->sub_signup
+[INFO] 2012-08-07 16:38:44,772 [models] 6970 [139682359510784] This is logged in ipn model _postback
+[INFO] 2012-08-07 16:38:45,878 [models] 6970 [139682359510784] ipn -> model -> send_signals
+[INFO] 2012-08-07 16:38:45,879 [models] 6970 [139682359510784] ipn->model->send_signal is_subscription
+[INFO] 2012-08-07 16:38:45,881 [models] 6970 [139682359510784] ipn->model->send_signal is_sub->sub_cancel
+[INFO] 2012-08-07 16:38:45,882 [ttagit_acct_type] 6970 [139682359510784] ipn->ttagit_acct_type->cancel_account
+[INFO] 2012-08-07 16:38:45,885 [ttagit_acct_type] 6970 [139682359510784] ipn->ttagit_acct_type->cancel_pro_market
+[INFO] 2012-08-07 16:38:45,910 [ttagit_acct_type] 6970 [139682359510784] {"result":"OK","time":1344375525895,"msg":"Successfully cancel Pro Market Account and add 30 days of graceful period"}
+[INFO] 2012-08-07 16:38:45,911 [models] 6970 [139682359510784] subscription_cancel
+[INFO] 2012-08-07 16:38:45,912 [models] 6970 [139682359510784] ipn->model->send_signal is_sub->sub_cancel finished

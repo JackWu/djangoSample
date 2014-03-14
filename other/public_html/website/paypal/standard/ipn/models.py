@@ -1,0 +1,80 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import urllib2
+import logging
+from paypal.standard.models import PayPalStandardBase
+from paypal.standard.ipn.signals import *
+from ttagit_acct_type import *
+
+log = logging.getLogger("dev.ttagit.logger")
+
+class PayPalIPN(PayPalStandardBase):
+    """Logs PayPal IPN interactions."""
+    format = u"<IPN: %s %s>"
+
+    class Meta:
+        db_table = "paypal_ipn"
+        verbose_name = "PayPal IPN"
+
+    def _postback(self):
+        log.info("This is logged in ipn model _postback")
+        """Perform PayPal Postback validation."""
+        return urllib2.urlopen(self.get_endpoint(), "cmd=_notify-validate&%s" % self.query).read()
+    
+    def _verify_postback(self):
+        if self.response != "VERIFIED":
+            self.set_flag("Invalid postback. (%s)" % self.response)
+            
+    def send_signals(self):
+        log.info("ipn -> model -> send_signals")
+        """Shout for the world to hear whether a txn was successful."""
+        # Transaction signals:
+        if self.is_transaction():
+            log.info("ipn->model->send_signal is_transaction")
+            if self.flag:
+                log.info("ipn->model sending payment_was_flagged signal")
+                test_signal = payment_was_flagged.send(sender=self)
+                log.info("ipn->model sending payment_was_flagged signal finish")
+            else:
+                log.info("ipn->model sending payment_was_successful signal")
+                log.info("item name: %s", self.item_name)
+                log.info("item number: %s", self.item_number)
+                update_account(self.item_name, self.item_number)
+                payment_was_successful.send(sender=self)
+                log.info("ipn->model sending payment_was_successful signal finish")
+        # Recurring payment signals:
+        # XXX: Should these be merged with subscriptions?
+        elif self.is_recurring():
+            log.info("ipn->model->send_signal is_recurring")
+            if self.is_recurring_create():
+                log.info("ipn->model->send_signal is_recurring->recurring_create")
+                recurring_create.send(sender=self)
+            elif self.is_recurring_payment():
+                log.info("ipn->model->send_signal is_recurring->recurring_payment")
+                recurring_payment.send(sender=self)
+            elif self.is_recurring_cancel():
+                log.info("ipn->model->send_signal is_recurring->recurring_cancel")
+                recurring_cancel.send(sender=self)
+            elif self.is_recurring_skipped():
+                log.info("ipn->model->send_signal is_recurring->recurring_skipped")
+                recurring_skipped.send(sender=self)
+            elif self.is_recurring_failed():
+                log.info("ipn->model->send_signal is_recurring->recurring_failed")
+                recurring_failed.send(sender=self)
+       # Subscription signals:
+        else:
+            log.info("ipn->model->send_signal is_subscription")
+            if self.is_subscription_cancellation():
+                log.info("ipn->model->send_signal is_sub->sub_cancel")
+                cancel_account(self.item_name, self.item_number)
+                subscription_cancel.send(sender=self)
+                log.info("ipn->model->send_signal is_sub->sub_cancel finished")
+            elif self.is_subscription_signup():
+                log.info("ipn->model->send_signal is_sub->sub_signup")
+                subscription_signup.send(sender=self)
+            elif self.is_subscription_end_of_term():
+                log.info("ipn->model->send_signal is_sub->sub_end_of_term")
+                subscription_eot.send(sender=self)
+            elif self.is_subscription_modified():
+                log.info("ipn->model->send_signal is_sub->sub_modified")
+                subscription_modify.send(sender=self)            

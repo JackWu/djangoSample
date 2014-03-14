@@ -1,0 +1,43 @@
+from django.db import models
+from django.dispatch import receiver
+from paypal.standard.ipn.signals import *
+from paypal.standard.ipn.models import PayPalIPN
+import logging
+
+log = logging.getLogger("dev.ttagit.logger")
+
+def show_me_the_money(sender, **kwargs):
+  log.debug("SIGNAL!!!!!---Successful Payment")
+  log.info(sender)
+  ipn_obj = sender
+  print ipn_obj
+  if ipn_obj.custom == 'Upgrade all users!':
+    print 'haha'
+  print __file__,1, 'This works'
+
+def flagged_signal(sender, **kwargs):
+	log.info("SIGNAL!!!!-----FLAGGED SIGNAL")
+
+#@receiver(subscription_cancel,sender=PayPalIPN)
+def cancel_subscr(sender, **kwargs):
+	#logger = logging.getLogger("dev.ttagit.logger")
+	log.info("SIGNAL!!!!----Cancel Subscription")	
+
+def signup_subscr(sender, **kwargs):
+	log.info("SIGNAL!!!!----Signup Subscr")
+
+def recur_pay(sender, **kwargs):
+  log.info("SIGNAL!!!!-----recurring payment")
+
+def recur_can(sender, **kwargs):
+  log.info("SIGNAL!!!!-----recurring cancel")
+
+payment_was_successful.connect(show_me_the_money)
+payment_was_flagged.connect(flagged_signal)
+
+simple_cancel.connect(signup_subscr)
+#subscription_cancel.connect(flagged_signal)
+subscription_signup.connect(signup_subscr)
+
+recurring_payment.connect(recur_pay)
+recurring_cancel.connect(recur_can)
